@@ -1,0 +1,52 @@
+.card {
+    border-radius: 12px;
+}
+
+.card-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.product-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-img-placeholder {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9ecef;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+.badge-category {
+    background: #e8f4fd;
+    color: #0d6efd;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin: 2px;
+    display: inline-block;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.pagination-info {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
